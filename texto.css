@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.titulo {
+    font-family: var(--fonte--principal);
+    text-align: center;
+    margin: 1rem 2rem;
+    color: var(--cor--branca);
+}
+
+.texto {
+    font-family: var(--fonte--secundaria);
+    text-align: center;
+    margin: 1rem 2rem;
+    color: var(--cor--branca);
+    font-weight: 300;
+}
+
+
+.botao {
+    border: solid;
+    background-color: var(--cor--branca);
+    color: var(--cor--fundo);
+    padding: .5rem 5rem;
+    border-radius: 50px;
+}
+
+.botao:hover {
+    background-color: var(--cor--secundaria);
+}
+
+.botao1 {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+@media (min-width:1200px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .containerPc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textoCard {
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 13%;
+    }
+
+    .titulo {
+        padding-top: 280px;
+        font-size: 40px;
+        margin: unset;
+        text-align: left;
+        width: 450px;
+    }
+
+    .texto {
+        margin: unset;
+        font-size: large;
+        text-align: left;
+        font-weight: 300;
+        line-height: 1.7rem;
+    }
+
+    .texto1 {
+        width: 500px;
+        align-items: center;
+    }
+
+    .botao {
+        margin-top: 30px !important;
+        height: 25px;
+        width: 150px;
+        text-align: center;
+        margin-left: 70px;
+        padding: .6em .5em;
+    }
+
+    .botao1 {
+        font-weight: 500;
+    }
+
+}
